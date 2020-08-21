@@ -8,19 +8,6 @@ public class 加油站 {
         int[] gas = {1, 2, 3, 4, 5};
         int[] cost = {3, 4, 5, 1, 2};
         System.out.println(fun(gas, cost));
-        String s1= "abc";
-        System.out.println(s1.hashCode());
-        String s3 = "abc";
-        System.out.println(s3.hashCode());
-        Map<String,Integer> map = new HashMap<>();
-        map.put(s1,1);
-        map.put(s3,2);
-        System.out.println(map);
-        String s2 = "def";
-        s1 = s2;
-        System.out.println(s2.hashCode());
-        System.out.println(s1.hashCode());
-
     }
 
     private static int fun(int[] gas, int[] cost) {

@@ -7,36 +7,34 @@ import java.util.List;
 
 public class 全排列 {
     public static void main(String[] args) {
-        int[] num= {1,2,3,4};
-        System.out.println(permute(num));
+        int[] num = {1, 2, 3, 4};
+        StringBuilder sb = new StringBuilder();
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("aa");
+        sb.append("aaa");
+        System.out.println(fun(num));
     }
-    public static void backtrack(int n,
-                          ArrayList<Integer> output,
-                          List<List<Integer>> res,
-                          int first) {
-        // 所有数都填完了
-        if (first == n)
-            res.add(new ArrayList<Integer>(output));
-        for (int i = first; i < n; i++) {
-            // 动态维护数组
-            Collections.swap(output, first, i);
-            // 继续递归填下一个数
-            backtrack(n, output, res, first + 1);
-            // 撤销操作
-            Collections.swap(output, first, i);
+
+    private static List<List<Integer>> fun(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        List<Integer> cur = new ArrayList<>();
+        for (int num : nums) {
+            cur.add(num);
         }
+        helper(0, nums.length, res, cur, nums);
+        return res;
     }
 
-    public static List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> res = new LinkedList();
-
-        ArrayList<Integer> output = new ArrayList<Integer>();
-        for (int num : nums)
-            output.add(num);
-
-        int n = nums.length;
-        backtrack(n, output, res, 0);
-        return res;
+    private static void helper(int first, int k, List<List<Integer>> res, List<Integer> cur, int[] nums) {
+        if (first == k) {
+            res.add(new ArrayList<>(cur));
+            return;
+        }
+        for (int j = first; j < nums.length; j++) {
+            Collections.swap(cur, j, first);
+            helper(first + 1, k, res, cur, nums);
+            Collections.swap(cur, j, first);
+        }
     }
 
 }

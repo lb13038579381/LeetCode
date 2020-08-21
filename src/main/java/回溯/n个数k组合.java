@@ -7,7 +7,7 @@ import java.util.List;
 public class n个数k组合 {
     public static void main(String[] args) {
         int n = 4;
-        int k = 2;
+        int k = 4;
         for (List<Integer> fun : fun(n, k)) {
             System.out.println(fun);
         }

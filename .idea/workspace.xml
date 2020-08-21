@@ -2,17 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/excel/test333.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test333.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/test33333344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test33333344.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/test3333344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test3333344.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/test333344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test333344.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/test3334.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test3334.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/test33344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test33344.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/n个数k组合.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/n个数k组合.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LRULinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SingleNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/二叉树a/二叉树1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/二叉树a/打家劫舍.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/双栈实现队列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/双色球.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/回溯/n个数k组合.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/n个数k组合.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/回溯/全排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/全排列.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/背包问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/链表相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/雪花算法.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,18 +46,89 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingleNumber" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tiku" />
+      <recent name="$PROJECT_DIR$/src/main/java/Excel" />
+      <recent name="$PROJECT_DIR$/src/main/java/二叉树a" />
+      <recent name="$PROJECT_DIR$/src/main/java/笔试题" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.加油站">
+    <configuration name="腾讯视野游戏" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试题.腾讯视野游戏" />
       <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="笔试题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="加油站" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="其他.加油站" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="其他.Singleton" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="n个数k组合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯.n个数k组合" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleNumber" />
+        <item itemvalue="Application.加油站" />
+        <item itemvalue="Application.Singleton" />
+        <item itemvalue="Application.全排列" />
+        <item itemvalue="Application.n个数k组合" />
+        <item itemvalue="Application.腾讯视野游戏" />
       </list>
     </recent_temporary>
   </component>
@@ -57,11 +142,61 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597997771463</updated>
-      <workItem from="1597997772922" duration="314000" />
+      <workItem from="1597997772922" duration="4272000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1598003905199">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905199" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1598003905197">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905197" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1598003905196">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905196" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1598003905198">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905198" />
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1598003894851">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894851" />
+    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1598003894850">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894850" />
+    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1598003894849">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894849" />
+    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1598003894850">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894850" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/笔试题/腾讯视野游戏.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/回溯/全排列.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
