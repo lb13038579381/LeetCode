@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/excel/test333.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test333.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/test33333344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test33333344.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/test3333344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test3333344.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/test333344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test333344.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/test3334.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test3334.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/test33344.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/tiku/excel/test33344.xlsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gOu4rSVt6FV1OfARSpu2btFazv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RunManager">
     <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SingleNumber" />
@@ -13,5 +46,22 @@
         <item itemvalue="Application.SingleNumber" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="" />
+      <created>1597997771463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597997771463</updated>
+      <workItem from="1597997772922" duration="314000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
 </project>
