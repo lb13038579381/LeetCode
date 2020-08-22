@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/n个数k组合.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/n个数k组合.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LRULinkList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SingleNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/二叉树a/二叉树1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/二叉树a/打家劫舍.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/双栈实现队列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/双色球.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/回溯/n个数k组合.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/n个数k组合.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/回溯/全排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/全排列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/背包问题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/链表相加.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/雪花算法.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597997771463</updated>
-      <workItem from="1597997772922" duration="4272000" />
+      <workItem from="1597997772922" duration="5024000" />
     </task>
     <servers />
   </component>
@@ -150,22 +136,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1598003905199">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1598004241324">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905199" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1598003905197">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241324" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1598004241323">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905197" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1598003905196">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241323" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1598004241322">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905196" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1598003905198">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241322" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1598004241323">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598003905198" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241323" />
     <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1598003894851">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
