@@ -12,23 +12,7 @@ import java.util.*;
  */
 public class 二叉树1 {
     public static void main(String[] args) {
-        TreeNode a = new TreeNode(1);
-        TreeNode b = new TreeNode(2);
-        TreeNode c = new TreeNode(3);
-        TreeNode d = new TreeNode(4);
-        TreeNode e = new TreeNode(5);
-        TreeNode f = new TreeNode(6);
-        TreeNode g = new TreeNode(7);
-        TreeNode h = new TreeNode(8);
-        TreeNode i = new TreeNode(9);
-        a.left = b;
-        a.right = c;
-        b.left = d;
-        c.left = e;
-        c.right = f;
-        d.left = g;
-        d.right = h;
-        e.left = i;
+
         /*
                 1
             2       3
@@ -55,16 +39,8 @@ public class 二叉树1 {
         ac.add(4);
         ac.add(5);
         ac.add(6);
-        TreeNode a1 = new TreeNode(1);
-        TreeNode a2 = new TreeNode(2);
-        TreeNode a3 = new TreeNode(3);
-        TreeNode a4 = new TreeNode(4);
-        TreeNode a5 = new TreeNode(5);
-        a1.left = a2;
-        a1.right = a3;
-        a2.left = a4;
-        a3.right = a5;
-
+        TreeNode a1 = TreeNode.getTree();
+        TreeNode a = TreeNode.getTree();
 //        hanota(ac,new ArrayList<>(),new ArrayList<>());
 //        System.out.println(二叉树最大深度(a1));
 //        System.out.println(层次(a1));

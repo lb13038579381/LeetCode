@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="" />
+    <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/二叉树/二叉树1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/二叉树/二叉树1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/二叉树/二叉树1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/其他/加油站.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/其他/加油站.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,26 +48,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/笔试题" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.加油站">
-    <configuration name="腾讯视野游戏" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试题.腾讯视野游戏" />
+  <component name="RunManager" selected="Application.lc459重复子字符串">
+    <configuration name="最大宽度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二叉树.最大宽度" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="笔试题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯.*" />
+          <option name="PATTERN" value="二叉树.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="其他.Singleton" />
+    <configuration name="lc459重复子字符串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="字符串.lc459重复子字符串" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="其他.*" />
+          <option name="PATTERN" value="字符串.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="n个数k组合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯.n个数k组合" />
+    <configuration name="lc679二十四点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯.lc679二十四点" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -108,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zijie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试题.zijie" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="笔试题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lc459重复子字符串" />
+        <item itemvalue="Application.zijie" />
+        <item itemvalue="Application.最大宽度" />
+        <item itemvalue="Application.lc679二十四点" />
         <item itemvalue="Application.加油站" />
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.全排列" />
-        <item itemvalue="Application.n个数k组合" />
-        <item itemvalue="Application.腾讯视野游戏" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597997771463</updated>
-      <workItem from="1597997772922" duration="5024000" />
+      <workItem from="1597997772922" duration="13425000" />
     </task>
     <servers />
   </component>
@@ -136,38 +142,42 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1598004241324">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1598261931238">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241324" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1598004241323">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598261931238" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1598261931236">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241323" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1598004241322">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598261931236" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1598261931235">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241322" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1598004241323">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598261931235" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1598261931237">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598004241323" />
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1598003894851">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598261931237" />
+    <state width="1638" height="358" key="GridCell.Tab.1.bottom" timestamp="1598261751586">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894851" />
-    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1598003894850">
+    <state width="1638" height="358" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598261751586" />
+    <state width="1638" height="358" key="GridCell.Tab.1.center" timestamp="1598261751584">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894850" />
-    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1598003894849">
+    <state width="1638" height="358" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598261751584" />
+    <state width="1638" height="358" key="GridCell.Tab.1.left" timestamp="1598261751584">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894849" />
-    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1598003894850">
+    <state width="1638" height="358" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598261751584" />
+    <state width="1638" height="358" key="GridCell.Tab.1.right" timestamp="1598261751585">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598003894850" />
+    <state width="1638" height="358" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598261751585" />
+    <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1598107967092">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="538" y="280" width="604" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598107967092" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,6 +191,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/回溯/全排列.java</url>
           <line>28</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/回溯/lc679二十四点.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/回溯/lc679二十四点.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/二叉树/最大宽度.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/字符串/lc459重复子字符串.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
