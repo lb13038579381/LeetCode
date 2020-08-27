@@ -6,10 +6,27 @@ import java.util.*;
 
 public class bilibili {
     public static void main(String[] args) {
-        fun2(70);
-        fun3(new int[]{7, 2, 1, 10});
+        int[] nums  = {1,23,3,-2,32,13,-213,-12,3-5,-3,-2,2,-3,23};
+        int start = 0;
+        int p = nums.length-1;
+        while(p >= 0) {
+            if(nums[p] < 0) {
+                swap(nums,p,start);
+                start++;
+            }else{
+                p--;
+            }
+            if(p <=start) {
+                break;
+            }
+        }
+        System.out.println(Arrays.toString(nums));
     }
-
+    private static void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+    }
     //四个数加减乘除得到24
     private static boolean fun3(int[] nums) {
         Queue<Integer> queue = new LinkedList<>();

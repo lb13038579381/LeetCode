@@ -2,11 +2,21 @@ package 回溯;
 
 public class lc679二十四点 {
     public static void main(String[] args) {
-        int[] nums = {1, 9, 1,2};
+        int[] nums = {2, 2, 2, 6, 2};
         System.out.println(judgePoint24(nums));
         System.out.println(fun(nums));
 
+        System.out.println(fun2(1,2,3,4,5));
     }
+
+    private static int fun2(int ... i) {
+        int res = 0;
+        for (int i1 : i) {
+            res+=i1;
+        }
+        return res;
+    }
+
 
     private static boolean fun(int[] nums1) {
         double[] nums = new double[nums1.length];
@@ -18,7 +28,7 @@ public class lc679二十四点 {
 
     private static boolean helper(double[] nums) {
         if (nums.length == 1) {
-            return Math.abs(nums[0] - 24) < 0.001;
+            return Math.abs(nums[0] - 4.0) < 0.001;
         }
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
@@ -56,7 +66,7 @@ public class lc679二十四点 {
 
     private static boolean dfs(double[] nums_2) {
         if (nums_2.length == 1) {
-            return Math.abs(nums_2[0] - 24.0) < 0.001;
+            return Math.abs(nums_2[0] - 4.0) < 0.001;
         }
         for (int i = 0; i < nums_2.length; i++) {
             for (int j = i + 1; j < nums_2.length; j++) {

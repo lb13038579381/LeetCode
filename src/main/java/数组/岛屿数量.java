@@ -36,22 +36,18 @@ public class 岛屿数量 {
                         if (i1 - 1 >= 0 && nums[i1 - 1][j1] == '1') {
                             queue.offer((i1 - 1) * cols + j1);
                             nums[i1 - 1][j1] = 0;
-
                         }
                         if (i1 + 1 < cows && nums[i1 + 1][j1] == '1') {
                             queue.offer((i1 + 1) * cols + j1);
                             nums[i1 + 1][j1] = 0;
-
                         }
                         if (j1 - 1 >= 0 && nums[i1][j1 - 1] == '1') {
                             queue.offer((i1 * cols + j1 - 1));
                             nums[i1][j1 - 1] = 0;
-
                         }
                         if (j1 + 1 < cols && nums[i1][j1 + 1] == '1') {
                             queue.offer((i1 * cols + j1 + 1));
                             nums[i1][j1 + 1] = 0;
-
                         }
                     }
                 }

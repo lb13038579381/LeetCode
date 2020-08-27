@@ -14,9 +14,6 @@ public class 机器人的活动范围 {
 
     private static int fun(int m, int n, int k) {
         int[][] marked = new int[m][n];
-        int temp = 3;
-        int i1 = 0;
-        int j1 = 0;
         int result = 0;
         Queue<int[]> q = new LinkedList<>();
         q.offer(new int[]{0, 0});

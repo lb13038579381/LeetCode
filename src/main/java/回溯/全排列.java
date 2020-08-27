@@ -1,9 +1,6 @@
 package 回溯;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class 全排列 {
     public static void main(String[] args) {
@@ -32,8 +29,9 @@ public class 全排列 {
         }
         for (int j = first; j < nums.length; j++) {
             Collections.swap(cur, j, first);
-            helper(first + 1, k, res, cur, nums);
+            helper(first+1, k, res, cur, nums);
             Collections.swap(cur, j, first);
+            HashMap
         }
     }
 
