@@ -1,4 +1,4 @@
-package 其他;
+package 动态规划;
 
 public class 礼物价值 {
     public static void main(String[] args) {
@@ -36,10 +36,4 @@ public class 礼物价值 {
 
     }
 
-}
- class xx{
-    int a;
-    public xx(int a) {
-        this.a = a;
-    }
 }

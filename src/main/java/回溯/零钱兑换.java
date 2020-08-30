@@ -26,7 +26,6 @@ public class 零钱兑换 {
             return;
         }
         for (int j = first; j < nums.length; j++) {
-            all++;
             cur.add(nums[j]);
             helper(j, cur, res, n, nums);
             cur.remove(cur.size() - 1);

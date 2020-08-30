@@ -1,5 +1,6 @@
 package 字符串;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 public class 字符串相加 {
@@ -7,6 +8,11 @@ public class 字符串相加 {
         String a = "99999";
         String b = "99999";
         System.out.println(fun(a, b));
+        int[] nums = new int[10];
+        int[] nums1 = new int[11];
+        nums1[0] = 1;
+        System.arraycopy(nums,0,nums1,1,10);
+        System.out.println(Arrays.toString(nums1));
     }
 
     private static String fun(String a, String b) {

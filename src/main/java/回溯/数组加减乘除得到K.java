@@ -2,11 +2,6 @@ package 回溯;
 
 public class 数组加减乘除得到K {
     public static void main(String[] args) throws InterruptedException {
-        for(int i = 0;i < 100;i++ ){
-            System.out.println(System.currentTimeMillis() % 30);
-            Thread.sleep(100);
-        }
-
         int[] nums = {2, 10, 2, 6, 2};
         int k = 4;
         double[] nums1 = new double[nums.length];
@@ -14,11 +9,8 @@ public class 数组加减乘除得到K {
             nums1[i] = nums[i];
         }
         System.out.println(fun(nums1, k));
-dd(1,2,3);    }
-
-    private static void dd(int ... a) {
-        System.out.println("xasd");
     }
+
     private static boolean fun(double[] nums, int k) {
         if (nums.length == 1) {
             if (Math.abs(nums[0] - k) < 0.001) {

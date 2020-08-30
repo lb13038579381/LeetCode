@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class 众数 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,4,5,6,6,7,8,6,6,8,8,7,8,8,6,6,6,6,6,6,8,8,8,8,8,8};
+        int[] nums = {1,1,2,2,2,3,3,2,3,3};
         System.out.println(fun(nums));
     }
     public static List<Integer> fun(int[] nums) {

@@ -4,7 +4,7 @@ import java.util.*;
 
 public class 全排列 {
     public static void main(String[] args) {
-        int[] num = {1, 2, 3, 4};
+        int[] num = {1, 2, 3};
         StringBuilder sb = new StringBuilder();
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("aa");
@@ -31,7 +31,6 @@ public class 全排列 {
             Collections.swap(cur, j, first);
             helper(first+1, k, res, cur, nums);
             Collections.swap(cur, j, first);
-            HashMap
         }
     }
 

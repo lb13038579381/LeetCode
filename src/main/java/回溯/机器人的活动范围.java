@@ -1,4 +1,4 @@
-package 其他;
+package 回溯;
 
 import java.util.Arrays;
 import java.util.LinkedList;

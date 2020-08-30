@@ -9,7 +9,7 @@ public class 最长连续序列 {
     public static void main(String[] args) {
         int[] nums = {100, 4, 200, 1, 3, 2};
         System.out.println(fun(nums));
-        System.out.println(isStraight(new int[]{0,0,1,2,5}));
+        //System.out.println(isStraight(new int[]{0,0,1,2,5}));
     }
     public static boolean isStraight(int[] nums) {
         int max = Integer.MIN_VALUE;
@@ -34,6 +34,7 @@ public class 最长连续序列 {
         for (int i : nums) {
             set.add(i);
         }
+        //{100, 4, 200, 1, 3, 2};
         int maxLength = 0;
         List<Integer> res = new ArrayList<>();
         for (int num : nums) {
