@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class 排序数组第一个和最后一个 {
     public static void main(String[] args) {
-        int[] nums = {5, 7, 7, 8, 8, 10};
-        System.out.println(Arrays.toString(fun(nums, 7)));
+        int[] nums = {1,2,3,3,3,3,3,4,4,45};
+        System.out.println(Arrays.toString(fun(nums, 3)));
     }
 
     private static int[] fun(int[] nums, int k) {

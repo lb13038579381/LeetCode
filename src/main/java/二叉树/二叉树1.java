@@ -4,6 +4,7 @@ import domain.ListNode;
 import domain.TreeNode;
 
 import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @description:
@@ -31,6 +32,8 @@ public class 二叉树1 {
 //        System.out.println(是否为镜像二叉树(a));
 //        System.out.println(z(a));
 //        System.out.println(中序(a));
+        ReentrantLock lock = new ReentrantLock();
+        lock.lock();
         List<Integer> ac = new ArrayList<>();
         ac.add(0);
         ac.add(1);

@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4675a3f-7633-44db-9d36-881cbab18bee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他/最长连续序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他/最长连续序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他/机器人的活动范围.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/机器人的活动范围.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他/礼物价值.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/礼物价值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/其他/计算器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他/计算器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/数组加减乘除得到K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/数组加减乘除得到K.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/零钱兑换.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/零钱兑换.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/字符串/字符串相加.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/字符串/字符串相加.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/数组/众数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/数组/众数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/其他/xx.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/其他/最长连续序列.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/其他/最长连续序列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/其他/机器人的活动范围.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/其他/礼物价值.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/其他/计算器.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/其他/计算器.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/回溯/全排列.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/全排列.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/回溯/数组加减乘除得到K.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/数组加减乘除得到K.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/回溯/零钱兑换.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/零钱兑换.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/字符串/字符串相加.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/字符串/字符串相加.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/数组/众数.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/数组/众数.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/a.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/二叉树/二叉树1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/二叉树/二叉树1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/其他/背包问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/其他/背包问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/复原IP地址.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/复原IP地址.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/数组/排序数组第一个和最后一个.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/数组/排序数组第一个和最后一个.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/a$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/a.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/二叉树/二叉树1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/二叉树/二叉树1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/其他/背包问题.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/其他/背包问题.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/回溯/复原IP地址.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/回溯/复原IP地址.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/数组/排序数组第一个和最后一个.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/数组/排序数组第一个和最后一个.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -62,22 +55,9 @@
       <recent name="$PROJECT_DIR$/src/main/java/笔试题" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.达达">
-    <configuration name="字符串相加" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="字符串.字符串相加" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="字符串.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="达达" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试题.达达" />
+  <component name="RunManager" selected="Application.baidu">
+    <configuration name="阿里笔试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试题.阿里笔试" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +69,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
+    <configuration name="岛屿数量" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯.岛屿数量" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="背包问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="其他.背包问题" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc60第k个排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯.lc60第k个排列" />
+    <configuration name="b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="domain.b" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="回溯.*" />
+          <option name="PATTERN" value="domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="meituan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试题.meituan" />
+    <configuration name="baidu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试题.baidu" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
@@ -154,13 +147,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lc1626计算器" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="其他.lc1626计算器" />
+      <module name="Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="其他.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.达达" />
-        <item itemvalue="Application.字符串相加" />
-        <item itemvalue="Application.meituan" />
-        <item itemvalue="Application.全排列" />
-        <item itemvalue="Application.lc60第k个排列" />
+        <item itemvalue="Application.baidu" />
+        <item itemvalue="Application.阿里笔试" />
+        <item itemvalue="Application.b" />
+        <item itemvalue="Application.lc1626计算器" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597997771463</updated>
       <workItem from="1597997772922" duration="41290000" />
-      <workItem from="1598600827519" duration="9411000" />
+      <workItem from="1598600827519" duration="22777000" />
+      <workItem from="1599046916954" duration="8381000" />
     </task>
     <servers />
   </component>
@@ -187,58 +193,62 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="603" y="239" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1598280938674" />
-    <state width="1638" height="341" key="GridCell.Tab.0.bottom" timestamp="1598790703404">
+    <state width="1638" height="293" key="GridCell.Tab.0.bottom" timestamp="1599137785555">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703404" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598614281776" />
-    <state width="1638" height="341" key="GridCell.Tab.0.center" timestamp="1598790703401">
+    <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599137785555" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1599043329425" />
+    <state width="1638" height="293" key="GridCell.Tab.0.center" timestamp="1599137785553">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703401" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598614281774" />
-    <state width="1638" height="341" key="GridCell.Tab.0.left" timestamp="1598790703399">
+    <state width="1638" height="293" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599137785553" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1599043329424" />
+    <state width="1638" height="293" key="GridCell.Tab.0.left" timestamp="1599137785552">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703399" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598614281773" />
-    <state width="1638" height="341" key="GridCell.Tab.0.right" timestamp="1598790703403">
+    <state width="1638" height="293" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599137785552" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1599043329423" />
+    <state width="1638" height="293" key="GridCell.Tab.0.right" timestamp="1599137785554">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703403" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598614281775" />
-    <state width="1638" height="341" key="GridCell.Tab.1.bottom" timestamp="1598790703624">
+    <state width="1638" height="293" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599137785554" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1599043329424" />
+    <state width="1638" height="335" key="GridCell.Tab.1.bottom" timestamp="1599136709605">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703624" />
+    <state width="1638" height="335" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1599136709605" />
     <state width="1638" height="354" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598349602661" />
-    <state width="1638" height="341" key="GridCell.Tab.1.center" timestamp="1598790703621">
+    <state width="1638" height="335" key="GridCell.Tab.1.center" timestamp="1599136709603">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703621" />
+    <state width="1638" height="335" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1599136709603" />
     <state width="1638" height="354" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598349602659" />
-    <state width="1638" height="341" key="GridCell.Tab.1.left" timestamp="1598790703620">
+    <state width="1638" height="335" key="GridCell.Tab.1.left" timestamp="1599136709603">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703620" />
+    <state width="1638" height="335" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1599136709603" />
     <state width="1638" height="354" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598349602658" />
-    <state width="1638" height="341" key="GridCell.Tab.1.right" timestamp="1598790703623">
+    <state width="1638" height="335" key="GridCell.Tab.1.right" timestamp="1599136709604">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="341" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1598790703623" />
+    <state width="1638" height="335" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1599136709604" />
     <state width="1638" height="354" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598349602660" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1599046947912">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1599046947912" />
     <state x="382" y="261" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598454336753">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="382" y="261" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050@0.0.1680.1050" timestamp="1598454336753" />
-    <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1598690409537">
+    <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1598805740923">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="538" y="280" width="604" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598690409537" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1598603258297">
+    <state x="538" y="280" width="604" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598805740923" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1599056427984">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598603258297" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599056427984" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,8 +310,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/笔试题/达达.java</url>
-          <line>66</line>
+          <line>65</line>
           <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/字符串/lc49字符串异位.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/回溯/复原IP地址.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/其他/lc1626计算器.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/其他/lc1626计算器.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/回溯/岛屿数量.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/回溯/岛屿数量.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/笔试题/baidu.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

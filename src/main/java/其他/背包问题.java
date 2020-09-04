@@ -4,11 +4,11 @@ import java.util.Arrays;
 
 public class 背包问题 {
     public static void main(String[] args) {
-        int[] weight = {2, 10, 5, 3, 4, 5, 6};
-        int[] value = {5, 6, 3, 2, 2, 3, 4};
-        int k = 10;
-        int m = 3;
-        System.out.println(fun(weight, value, k, m));
+        int[] weight = {2, 2, 4, 6, 3};
+        int[] value = {3, 4, 8, 9, 6};
+        int k = 9;
+        int m = 5;
+//        System.out.println(fun(weight, value, k, m));
         BackPack_Solution(k, m, weight, value);
     }
 
@@ -25,20 +25,19 @@ public class 背包问题 {
         }
         for (int[] ints : dp) {
             System.out.println(Arrays.toString(ints));
-
         }
         return -1;
     }
 
-    public static int[][] BackPack_Solution(int jiazhi, int shuliang, int[] weight, int[] value) {
+    public static int BackPack_Solution(int jiazhi, int shuliang, int[] weight, int[] value) {
         //c[i][v]表示前i件物品恰放入一个重量为m的背包可以获得的最大价值
-        int dp[][] = new int[shuliang + 1][jiazhi + 1];
-        for (int i = 0; i < shuliang + 1; i++)
+        int dp[][] = new int[shuliang][jiazhi + 1];
+        for (int i = 0; i < shuliang ; i++)
             dp[i][0] = 0;
         for (int j = 0; j < jiazhi + 1; j++)
             dp[0][j] = 0;
 
-        for (int i = 1; i <= shuliang; i++) {
+        for (int i = 1; i < shuliang; i++) {
             for (int j = 1; j <= jiazhi; j++) {
                 if (j >= weight[i])
                     dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - weight[i]] + value[i]);
@@ -46,11 +45,7 @@ public class 背包问题 {
                     dp[i][j] = dp[i - 1][j];
             }
         }
-
-
-        for (int[] ints : dp) {
-            System.out.println(Arrays.toString(ints));
-        }
-        return dp;
+        System.out.println(dp[shuliang-1][jiazhi]);
+        return dp[shuliang-1][jiazhi];
     }
 }
