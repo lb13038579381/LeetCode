@@ -12,25 +12,26 @@ public class 全排列 {
         System.out.println(fun(num));
     }
 
+
     private static List<List<Integer>> fun(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         List<Integer> cur = new ArrayList<>();
         for (int num : nums) {
             cur.add(num);
         }
-        helper(0, nums.length, res, cur, nums);
+        helper(0, nums.length, res, new ArrayList<>(), nums);
         return res;
     }
 
     private static void helper(int first, int k, List<List<Integer>> res, List<Integer> cur, int[] nums) {
-        if (first == k) {
+        if (cur.size() == nums.length) {
             res.add(new ArrayList<>(cur));
             return;
         }
         for (int j = first; j < nums.length; j++) {
-            Collections.swap(cur, j, first);
-            helper(first+1, k, res, cur, nums);
-            Collections.swap(cur, j, first);
+            cur.add(nums[j]);
+            helper(first + 1, k, res, cur, nums);
+            cur.remove(cur.size() - 1);
         }
     }
 

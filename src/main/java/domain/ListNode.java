@@ -29,12 +29,12 @@ public class ListNode {
     }
     public static ListNode getList() {
         ListNode a = new ListNode(1);
-        ListNode b = new ListNode(2);
-        ListNode c = new ListNode(3);
+        ListNode b = new ListNode(1);
+        ListNode c = new ListNode(1);
         ListNode d = new ListNode(4);
-        ListNode e = new ListNode(5);
-        ListNode f = new ListNode(6);
-        ListNode g = new ListNode(7);
+        ListNode e = new ListNode(4);
+        ListNode f = new ListNode(5);
+        ListNode g = new ListNode(5);
         ListNode h = new ListNode(8);
         ListNode i = new ListNode(9);
         a.next = b;

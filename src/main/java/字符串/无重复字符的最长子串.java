@@ -4,18 +4,22 @@ import java.util.*;
 
 public class 无重复字符的最长子串 {
     public static void main(String[] args) {
-        String s = "abcabcbb";
-        System.out.println(fun(s));
-        Map<String,String> ss = new HashMap<>();
-        int[] nums = {1,2,3,4,5,6,7,8,9};
-        int left = 0;
-        int right = nums.length-1;
-        while(left < right) {
-            swap(nums,left,right);
-            left++;
-            right--;
-        }
-        System.out.println(Arrays.toString(nums));
+        int i = 0;
+        i = ++i;
+        System.out.println(i++);
+        System.out.println(++i);
+//        String s = "abcabcbb";
+//        System.out.println(fun(s));
+//        Map<String,String> ss = new HashMap<>();
+//        int[] nums = {1,2,3,4,5,6,7,8,9};
+//        int left = 0;
+//        int right = nums.length-1;
+//        while(left < right) {
+//            swap(nums,left,right);
+//            left++;
+//            right--;
+//        }
+//        System.out.println(Arrays.toString(nums));
     }
     private static void swap(int[] nums, int a, int b) {
         int temp = nums[a];

@@ -17,10 +17,10 @@ import java.util.Stack;
 public class 链表 {
     public static void main(String[] args) {
 
-//        print(删除重复(ListNode.getList()));
-//        print(删除重复2(ListNode.getList()));
-        print(两数相加(ListNode.getList(), ListNode.getList()));
-        System.out.println(两数相加(ListNode.getList(), ListNode.getList()));
+        print(删除重复(ListNode.getList()));
+        print(删除重复2(ListNode.getList()));
+//        print(两数相加(ListNode.getList(), ListNode.getList()));
+//        System.out.println(两数相加(ListNode.getList(), ListNode.getList()));
 //        print(合并两个有序链表(ListNode.getList(), ListNode.getList2()));
 //        System.out.println(是否存在环形链表(ListNode.getList2()));
 //          print(删除链表的倒数第n个节点(ListNode.getList(),3));
