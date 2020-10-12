@@ -1,8 +1,11 @@
 package domain;
 
+import 回溯.三数之和;
+
 import java.util.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class a {
     private static volatile a ab;
@@ -25,7 +28,30 @@ public class a {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        int i = 0;
+        int a = i++;
+        int i1 = 0;
+        int b = ++i1;
+        System.out.println(++a);
+        System.out.println(b);
+        Thread t1 = new Thread(() -> {
+            ThreadLocal<String> threadLocal = new ThreadLocal<>();
+            threadLocal.set("kkk");
+            ThreadLocal<String> threadLocal1 = new ThreadLocal<>();
+            threadLocal1.set("2333");
+            threadLocal1.get();
+            System.out.println(threadLocal.get());
+        });
+        Thread t2 = new Thread(() -> {
+            ThreadLocal<String> threadLocal = new ThreadLocal<>();
+            threadLocal.set("t2");
+            threadLocal.set("222");
+            System.out.println(threadLocal.get());
+        });
+        t1.start();
+        Thread.sleep(100);
+        t2.start();
 //        int dddd = 1000;
 //        Integer eeee = 1000;
 //        int e = 1000;
